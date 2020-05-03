@@ -7,6 +7,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <SEO title="home" />
+      <Link to="/test/">Cecie est un lien vers une page test</Link>
       <h4>Posts</h4>
       {data.allWordpressPost.edges.map(({ node }) => (
         <div>

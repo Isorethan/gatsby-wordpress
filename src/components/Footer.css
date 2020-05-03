@@ -1,0 +1,35 @@
+.footer {
+    position: relative;
+    display: flex;
+    height: 60px;
+    background-image: url(../images/black-wooden-plank.jpg);
+    width: 100%;
+}
+
+
+.social-media-container {
+    height: 80%;
+    width: fit-content;
+   margin-left: 10px;
+   display: flex;
+   align-self: center;
+}
+
+.social-media-container > a{
+ width: fit-content;
+}
+
+
+.social-media-item {
+    max-height: 100%;
+    margin: 0 15px;
+}
+
+.mentions-link {
+    display: block;
+    position: absolute;
+    right: 25px;
+    color: white;
+    align-self: center;
+    width: fit-content;
+}

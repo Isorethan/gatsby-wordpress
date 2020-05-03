@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 import { graphql } from "gatsby"
 
 export default ({ data }) => {
@@ -7,6 +8,7 @@ export default ({ data }) => {
   console.log(post)
   return (
     <Layout>
+      <SEO title={post.title} />
       <div>
         <h1>{post.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.content }} />
