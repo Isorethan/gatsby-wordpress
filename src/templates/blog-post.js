@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { graphql } from "gatsby"
+import "@wordpress/block-library/build-style/style.css"
 
 export default ({ data }) => {
   const post = data.allWordpressPost.edges[0].node
